@@ -101,7 +101,7 @@ body {
   background-color: #000;
   color: #fff;
 }
-.btn-group {
+.btn-group { 
   display: flex;
   justify-content: space-between;
 }
@@ -110,6 +110,10 @@ body {
 }
 .btn-group > * + * {
   margin-left: 0.8rem;
+}
+.delete-all-wrapper {
+  display: flex;
+  justify-content: center;
 }
 .label-wrapper {
   flex: 0 0 100%;

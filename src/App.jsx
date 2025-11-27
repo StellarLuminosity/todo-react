@@ -42,6 +42,10 @@ function App(props) {
     setTasks(remainingTasks);
   }
 
+  function deleteAllTasks() {
+    setTasks([]);
+  }
+
   function editTask(id, newName) {
     const editedTaskList = tasks.map((task) => {
       // if this task has the same ID as the edited task
@@ -100,6 +104,11 @@ function App(props) {
       <h1>TodoMatic</h1>
       <Form addTask={addTask} />
       <div className="filters btn-group stack-exception">{filterList}</div>
+      <div className="delete-all-wrapper">
+        <button type="button" className="btn btn__danger" onClick={deleteAllTasks}>
+          Delete all
+        </button>
+      </div>
       <h2 id="list-heading" tabIndex="-1" ref={listHeadingRef}>
         {headingText}
       </h2>
