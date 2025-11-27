@@ -105,7 +105,11 @@ function App(props) {
       <Form addTask={addTask} />
       <div className="filters btn-group stack-exception">{filterList}</div>
       <div className="delete-all-wrapper">
-        <button type="button" className="btn btn__danger" onClick={deleteAllTasks}>
+        <button
+          type="button"
+          className="btn btn__delete-all"
+          onClick={deleteAllTasks}
+        >
           Delete all
         </button>
       </div>

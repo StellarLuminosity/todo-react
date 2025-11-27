@@ -94,6 +94,11 @@ body {
   border-color: #bd2130;
   color: #fff;
 }
+.btn__delete-all {
+  background-color: #007bff;
+  border-color: #0069d9;
+  color: #fff;
+}
 .btn__filter {
   border-color: lightgrey;
 }
