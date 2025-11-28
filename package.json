@@ -12,12 +12,12 @@
   },
   "dependencies": {
     "nanoid": "^5.1.6",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^8.57.1",
-    "@types/react": "^18.2.79",
+    "@types/react": "^19.2.7",
     "@types/react-dom": "^18.2.25",
     "@vitejs/plugin-react": "^4.3.4",
     "eslint": "^8.57.1",
